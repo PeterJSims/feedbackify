@@ -5,13 +5,13 @@ class Header extends Component {
 		return (
 			<nav>
 				<div className="nav-wrapper">
-					<a href="" className="left brand-logo">
-						Feedbackify{' '}
+					<a href="/" className="left brand-logo">
+						Feedbackify
 					</a>
 
 					<ul className="right">
 						<li>
-							<a href="">Login With Google</a>
+							<a href="/">Login With Google</a>
 						</li>
 					</ul>
 				</div>
