@@ -11,7 +11,7 @@ mongoose.connect(keys.mongoURI, { useNewUrlParser: true });
 
 const app = express();
 
-//Middlewares
+//Middlewares applied to all requests
 app.use(bodyParser.json());
 app.use(
 	cookieSession({
